@@ -1,0 +1,49 @@
+
+
+body{
+background-image: url(./fundo.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+font-size: 20px;
+color: white;
+}
+
+h1{
+color: white;
+font-size: 40px;
+}
+
+input[type="text"]{
+height: 30px; 
+margin-top:3px;   
+}
+
+.Lista{
+margin-top: 1rem;
+border-top: 1px solid white;
+list-style: none;
+color:white;
+}
+
+.tarefa{
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+border-bottom: 1px solid white;
+}
+
+.check-tarefa{
+float: right;
+color:white;
+}
+
+.check-tarefa:hover{
+color: red;
+cursor: pointer;
+}
+
+.done{
+   text-decoration: line-through; 
+   text-decoration-style: double;
+}
